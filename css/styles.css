@@ -1,0 +1,111 @@
+body{
+    font-family: 'Archivo Narrow', sans-serif;
+}
+
+header{
+    background-image: url(https://www.dvcresalemarket.com/wp-content/uploads/header-mount-everest.jpg);
+    padding-top: 140px;
+    padding-bottom: 158px;
+    text-align: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+h1{
+    font-size: 65px;
+}
+
+h2{
+    margin-top: -1.75em;
+}
+
+h3{
+    text-align: center;
+    font-size: 40px;
+    margin-block-start: 0em;
+}
+
+.column-box{
+    display: block;
+    width: 960px;
+    margin: auto;
+}
+
+p{
+    font-size: 18px;
+}
+
+#img1{
+    width: 400px;
+    height: 300px;
+    float: right;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.sect_1{
+    background-color: rgb(241, 241, 241);
+    background-size: 150%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+li img{
+    float: left;
+    width: 200px;
+    height: 150px;
+    padding-top: 5%;
+    padding-right: 12px;
+}
+ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    margin-top: -.4rem;
+}
+
+li{
+    width: 92%;  
+    margin-bottom: 1.5rem;
+}
+
+.sect_2{
+    color: cornsilk;
+    background-color: black;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.sect_last{
+    padding-top: 35px;
+    width: 700px;
+    text-align: center;
+    margin: auto;
+    
+}
+
+.sect_3{
+    background-color: cornsilk;
+    padding-bottom: 75px;
+}
+
+.sect_3 p{
+    font-size: 26px;
+}
+
+.foot{
+    margin: auto;
+    text-align: left;
+    width: 960px;
+}
+footer{
+    color: cornsilk;
+    background-color: black;
+    padding-top: 5px;
+    padding-bottom: 25px;
+    
+}
+
