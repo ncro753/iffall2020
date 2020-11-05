@@ -1,68 +1,61 @@
 <!DOCTYPE html>
 <html>
 
-<head>
-	<meta name="viewport" content="width=device-width,initial-scale=1.0">
-	<title>Basic Responsive Design Techniques</title>
-	<link href="https://wudesign.me/resources/responsive-design-techniques/styles.css" rel="stylesheet">
-	<link rel="stylesheet" href="css/styles.css"/>
-</head>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Recipe Wireframe</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+  </head>
 
-<body>
+  <body>
+    <header>
+        <h1>CORN PUDDING</h1>
+        <h3>A Southern comfort food favorite. Unique. Delicious.</h3>
+    </br>
+        <h3>Recipe curtosey of:</h3>
+        <img id="logo"src="https://prnewswire2-a.akamaihd.net/p/1893751/sp/189375100/thumbnail/entry_id/1_4l82yg92/def_height/2700/def_width/2700/version/100011/type/1" alt="Southern Living Logo">
+    </header>
 
-	<header>
-		<h1>Responsive Design Techniques</h1>
-		<p>For each section in this document, complete the challenge as described.</p>
-	</header>
+    <img id="img1" src="https://tmbidigitalassetsazure.blob.core.windows.net/rms3-prod/attachments/37/1200x1200/Corn-Pudding_EXPS_PPT18_31278_C08_21_4b.jpg" alt="corn pudding dish">
+    
+    <div class="bulk">
+    <div class="ingredients">
+        <h3>Ingredients</h3>
+        <ul>
+            <li><b>3 tablespoons</b> all-purpose flour</li>
+            <li><b>2 tablespoons</b> granulated sugar</li>
+            <li><b>2 teaspoons</b> baking powder</li>
+            <li><b>2 teaspoons</b> kosher salt</li>
+            <li><b>6</b> large eggs</li>
+            <li><b>2 cups</b> heavy cream</li>
+            <li><b>2 tablespoons</b> salted butter, melted and cooled</li>
+            <li><b>6 cups</b> fresh corn kernels</li>
+            <li><b>1/2 cup</b> chopped sweet onion</li>
+            <li><b>2 tablespoons</b> chopped fresh thyme</li>
+        </ul>
+    </div>
 
-	<section id="body-width-management">
-		<p>Make the <code>&lt;body&gt;</code> of this document be <code>800px</code> wide <em>and</em> <code>90%</code> the width of the viewport, whichever is smaller. Center the body on the page no matter how wide the viewport is.</p>
-	</section>
+    <div class="directions">
+        <h3>Directions</h3>
+        <ol>
+            <li>Preheat oven to 350°F</li>
+            <li>Stir together flour, sugar, baking powder, and salt in a small bowl until blended</li>
+            <li>Whisk together eggs, cream, and melted butter in a medium bowl until blended</li>
+            <li>Heat canola oil in a large skillet over medium-high</li>
+            <li>Add corn and onion, and cook, stirring often, until onion is softened, about 5 minutes</li>
+            <li>Stir in 1 Tbsp. of thyme</li>
+            <li>Remove from heat, and let cool slightly, about 5 minutes</li>
+            <li>Stir flour mixture and corn mixture into egg mixture</li>
+            <li>Spoon into a 13- x 9-inch (3-quart) baking dish, and bake in preheated oven until set and golden brown, about 40 minutes</li>
+            <li>Let stand 5 minutes before serving</li>
+            <li>Sprinkle with remaining 1 Tbsp. of thyme to serve</li>
+        </ol>
+    </div>
+    </div>  
+    
+  </body>
 
-	<section id="background-color">
-		<p>Make the <code>background-color</code> of this document to <code>#eaf6ff</code> when the viewport width is <code>640px</code> or more.</p>
-	</section>
-
-	<section id="headline-size">
-		<p>Make the <code>&lt;h1&gt;</code> on this page have a <code>font-size</code> of <code>1.5rem</code> when the viewport width is below <code>500px</code>, and <code>2.5rem</code> when the viewport width is above <code>640px</code>.</p>
-	</section>
-
-	<section id="fixed-size-grid-items">
-		<p>Turn the following list into a grid of boxes that wrap horizontally (side-by-side until they run out of room and wrap to the next line). Make each <code>&lt;aside&gt;</code> <code>170px</code> wide, with a <code>10px</code> margin. Set the <code>font-size</code> for the boxes to be <code>0.8rem</code>. Be sure to remove the bullets associated with the <code>&lt;li&gt;</code> tags, and remove the default <code>padding-left</code> on the <code>&lt;ul&gt;</code>.</p>
-		<ul>
-			<li>
-				<aside>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</aside>
-			</li>
-			<li>
-				<aside>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</aside>
-			</li>
-			<li>
-				<aside>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ullamco laboris nisi ut aliquip ut labore et dolore magna aliqua.</aside>
-			</li>
-			<li>
-				<aside>Sunt in culpa qui officia deserunt mollit anim id est laborum. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur consectetur adipisicing elit sint occaecat cupidatat non proident.</aside>
-			</li>
-		</ul>
-	</section>
-
-	<section id="stretchable-grid-items">
-		<p>As above, make a grid of boxes that wrap horizontally. This time, give each <code>&lt;li&gt;</code> a width of 100%. When the viewport width is greater than 480px, make each <code>&lt;li&gt;</code> be <code>50%</code> wide. If the viewport is greater than 640px, make each <code>&lt;li&gt;</code> be <code>25%</code> wide. The grid should be 1-across at small widths, 2-across at medium widths, and 4-across and large widths. Don't set a width on the <code>&lt;aside&gt;</code> elements, but be sure they have a <code>10px</code> margin.</p>
-		<p>Now, set the <code>&lt;ul&gt;</code> to have a <code>margin</code> of <code>-10px</code> left and right, <code>1rem</code> top and bottom. What happens?</p>
-		<ul>
-			<li>
-				<aside>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</aside>
-			</li>
-			<li>
-				<aside>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</aside>
-			</li>
-			<li>
-				<aside>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ullamco laboris nisi ut aliquip ut labore et dolore magna aliqua.</aside>
-			</li>
-			<li>
-				<aside>Sunt in culpa qui officia deserunt mollit anim id est laborum. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur consectetur adipisicing elit sint occaecat cupidatat non proident.</aside>
-			</li>
-		</ul>
-	</section>
-
-</body>
-</html>
+  </html>
+      
