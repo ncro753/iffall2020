@@ -10,7 +10,9 @@ body{
     margin-right: auto;
     width: 90%;
     max-width: 960px;
-    background-image: url(/Users/ninacrosby/Documents/FL20/InteractionFoundations/Assignments/publish/recipe/complete/images/WoodBackground54342.jpg);
+    background-image: url(https://jooinn.com/images/wood-background-149.jpg);
+    background-repeat: repeat-y;
+    background-position: center;
 }
 
 #img1{
@@ -39,20 +41,6 @@ ol, ul{
 
 li{
     margin-bottom: 10px;
-}
-
-.ingredients{
-    background-color: white;
-    padding-left: 30px;
-    padding-bottom: 30px;
-    padding-top: 10px;
-}
-
-.directions{
-    background-color: white; 
-    padding-left: 30px;
-    padding-bottom: 30px;
-    padding-top: 10px;
 }
 
 .instructions h3, .extra h3{
@@ -85,13 +73,22 @@ li{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     list-style-type: none;
-    grid-column-gap: 20px;
-    grid-row-gap: 40px;
+    grid-column-gap: 10px;
+    grid-row-gap: 20px;
     
+    
+}
+
+.extraFoods{
+    width: 960px;
+    margin-right: 30px;
+    text-align: center;
+    align-items: center;
 }
 
 .extraFoods li {
     width: 100%; 
+    margin-left: -22px;
 }
 
 .extraFoods img{
@@ -104,4 +101,9 @@ li{
         grid-template-columns: 1fr;
         width: 500px;
     }
+}
+
+.whitebox{
+    background-color: white;
+    padding: 30px;
 }
