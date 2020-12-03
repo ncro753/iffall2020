@@ -6,25 +6,36 @@
 .nav a {
     float: left;
     display: block;
-    color: #333;
+    color: rgb(41, 41, 41);
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-  }
+}
+  
+.nav a:hover {
+background-color: #ddd;
+color: black;
+}
+
+.nav a.active {
+background-color: rgb(175, 175, 175);
+color: rgb(15, 48, 15);
+}
+
 
 body{
     font-family: 'Poppins', sans-serif;
 }
 
 .life{
-    padding: 75px;
+    padding: 50px;
     max-width: 900px;
     margin-left: auto;
     margin-right: auto;
 }
 
 .career{
-    padding: 75px;
+    padding: 50px;
     max-width: 900px;
     margin-left: auto;
     margin-right: auto;
@@ -50,7 +61,7 @@ body{
 }
 
 .honors{
-    padding: 75px;
+    padding: 50px;
     max-width: 900px;
     margin-left: auto;
     margin-right: auto;
@@ -72,7 +83,7 @@ em{
 }
 
 .legacy{
-    padding: 75px;
+    padding: 50px;
     max-width: 900px;
     margin-left: auto;
     margin-right: auto;
