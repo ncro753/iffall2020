@@ -1,0 +1,134 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.nav {
+    overflow: hidden;
+    display: inline;
+}
+  
+.nav a {
+    float: left;
+    display: block;
+    color: rgb(61, 114, 48);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+  
+.nav a:hover {
+    background-color: rgb(61, 114, 48);
+    color: rgb(245, 245, 245);
+}
+
+.nav a.active {
+    background-color: rgb(0, 0, 0);
+    color: rgb(21, 65, 21);
+}
+
+.title{
+    padding: 230px;
+    display: block;
+    align-items: center;
+}
+
+img.titleimg{
+    height: 120px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.life{
+    padding: 50px;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.career{
+    padding: 50px;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#head{
+    width: 100%;
+}
+
+.gallery {
+    margin: 5px;
+    float: left;
+    display: block;
+  }
+
+.images{
+    display: block;
+}
+
+.prh{
+    padding-top: 210px;
+    display: block;
+}
+
+.honors{
+    padding: 50px;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.sources{
+    padding: 50px;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+ul{
+    list-style-type: none;
+    margin-left: -30px;
+    font-size: 20px;
+}
+
+li{
+    margin-bottom: 12px;
+}
+
+img.logo{
+    height: 90px;
+    padding: 10px;
+}
+
+em{
+    font-size: large;
+    font-weight: 700;
+}
+
+.legacy{
+    padding: 50px;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.legacyimg{
+    max-width: 900px;
+}
+
+p{
+    padding-bottom: 20px;
+}
+
+h1{
+    color: rgb(11, 68, 11);
+}
+
+h3{
+    color: rgb(74, 155, 74);
+}
